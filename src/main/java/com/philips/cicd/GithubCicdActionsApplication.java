@@ -25,8 +25,11 @@ public class GithubCicdActionsApplication {
 		SpringApplication.run(GithubCicdActionsApplication.class, args);
 	}
 
-	public void test(){
+	public void testCicdMethod(){
 		System.out.println("Test");
 	}
 
+	public void test(){
+		System.out.println("Test");
+	}
 }
